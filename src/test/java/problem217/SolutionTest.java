@@ -1,7 +1,6 @@
 package problem217;
 
 import org.junit.jupiter.api.Test;
-import problem217.Solution;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -18,7 +17,7 @@ class SolutionTest {
 
     @Test
     public void testCase2() {
-        int[] nums = {1, 2, 3, 1};
+        int[] nums = {1, 2, 3, 4};
         var result = solution.containsDuplicate(nums);
         assertThat(result).isFalse();
     }
