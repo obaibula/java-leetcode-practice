@@ -1,4 +1,4 @@
-package problem219;
+package arrays.problem219;
 
 import java.util.HashSet;
 

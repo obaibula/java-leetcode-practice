@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32e74fe2-7ec3-4298-8359-6db2e46fdef2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/problem219/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/problem219/SolutionTest.java" afterDir="false" />
+    <list default="true" id="32e74fe2-7ec3-4298-8359-6db2e46fdef2" name="Changes" comment="217, 219">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/problem220/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrays/problem220/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problem217/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problem217/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/problem217/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problem217/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problem217/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/problem217/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problem219/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/problem219/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problem217/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arrays/problem217/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problem219/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arrays/problem219/SolutionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +54,12 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="arrays.problem220" />
       <recent name="problem219" />
       <recent name="problem011" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest (2)">
+  <component name="RunManager" selected="JUnit.SolutionTest.testCase2 (2)">
     <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-leetcode-practice" />
       <extension name="coverage">
@@ -87,18 +90,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.testCase1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problem217.*" />
+          <option name="PATTERN" value="arrays.problem220.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="problem217" />
-      <option name="MAIN_CLASS_NAME" value="problem217.SolutionTest" />
-      <option name="METHOD_NAME" value="testCase1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="arrays.problem220" />
+      <option name="MAIN_CLASS_NAME" value="arrays.problem220.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,16 +121,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.testCase2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.testCase2 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problem217.*" />
+          <option name="PATTERN" value="arrays.problem220.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="problem217" />
-      <option name="MAIN_CLASS_NAME" value="problem217.SolutionTest" />
+      <option name="PACKAGE_NAME" value="arrays.problem220" />
+      <option name="MAIN_CLASS_NAME" value="arrays.problem220.SolutionTest" />
       <option name="METHOD_NAME" value="testCase2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.testCase2 (2)" />
+        <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.SolutionTest (2)" />
         <item itemvalue="JUnit.SolutionTest.testCase2 (1)" />
         <item itemvalue="JUnit.SolutionTest (1)" />
-        <item itemvalue="JUnit.SolutionTest.testCase2" />
-        <item itemvalue="JUnit.SolutionTest.testCase1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -154,15 +156,28 @@
       <option name="presentableId" value="Default" />
       <updated>1691059415136</updated>
     </task>
+    <task id="LOCAL-00001" summary="217, 219">
+      <option name="closed" value="true" />
+      <created>1691139483122</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691139483122</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="217, 219" />
+    <option name="LAST_COMMIT_MESSAGE" value="217, 219" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/problem219/Solution.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/problem220/Solution.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
